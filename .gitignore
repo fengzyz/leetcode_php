@@ -1,0 +1,44 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+### CakePHP template
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+.idea/
+go/
+php/
