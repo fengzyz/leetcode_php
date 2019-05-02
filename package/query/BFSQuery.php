@@ -15,7 +15,7 @@
  * 换句话说，它并不考虑结果的可能位置，彻底地搜索整张图，直到找到结果为止。
  */
 
-class Query
+class BFSQuery
 {
     /**
      * @var array 关系网络
