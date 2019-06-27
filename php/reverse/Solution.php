@@ -28,3 +28,5 @@ class Solution
         return $x;
     }
 }
+$solution = new Solution();
+echo $solution->reverse(123);
