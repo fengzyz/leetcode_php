@@ -7,7 +7,7 @@
  */
 
 /**
- * 
+ *
  * Class Solution
  */
 class Solution
