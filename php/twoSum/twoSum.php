@@ -37,3 +37,8 @@ class Solution {
         return 0;
     }
 }
+
+$solution = new Solution();
+$arr = array(9,0,1,2,6,4);
+
+echo $solution->twoSum($arr,10);
