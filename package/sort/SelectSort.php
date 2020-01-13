@@ -24,7 +24,7 @@ function SelectSort(array $arr)
             }
         }
         if($k != $i){
-            $temp          = $arr[$i];
+            $temp    = $arr[$i];
             $arr[$i] = $arr[$k];
             $arr[$k] = $temp;
         }
